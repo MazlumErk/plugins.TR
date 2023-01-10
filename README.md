@@ -1,47 +1,49 @@
-# Flutter plugins
+# Flutter eklentileri
 
 [![Build Status](https://api.cirrus-ci.com/github/flutter/plugins.svg)](https://cirrus-ci.com/github/flutter/plugins/main)
 [![Release Status](https://github.com/flutter/plugins/actions/workflows/release.yml/badge.svg)](https://github.com/flutter/plugins/actions/workflows/release.yml)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/flutter/plugins/badge)](https://api.securityscorecards.dev/projects/github.com/flutter/plugins)
 
-This repo is a companion repo to the main [flutter
-repo](https://github.com/flutter/flutter). It contains the source code for
-Flutter first-party plugins (i.e., plugins developed by the core Flutter team).
-Check the `packages` directory for all plugins.
+Bu repo, ana [flutter reposuna](https://github.com/flutter/flutter) 
+eşlik eden bir repodur. Flutter ilk parti eklentilerinin 
+(yani, Flutter çekirdek ekibi tarafından geliştirilen eklentilerin) 
+kaynak kodlarını içerir. Tüm eklentiler için `packages` dizinine bakın.
 
-Flutter plugins enable access to platform-specific APIs. For more information
-about plugins, and how to use them, see
+
+Flutter eklentileri, platform/özel API'lere erişim sağlar. Eklentilerle ilgili 
+daha fazla bilgi ve onları nasıl kullanacağınız hakkında bilgi için
 [https://flutter.dev/platform-plugins/](https://flutter.dev/platform-plugins/).
 
-These plugins are also available on
-[pub](https://pub.dev/flutter/packages).
+Bu eklentiler 
+[pub](https://pub.dev/flutter/packages)'da mevcut.
 
-## Issues
+## Geri Bildirim
 
-Please file any issues, bugs, or feature requests in the [main flutter
+Lütfen herhangi bir sorun, hata veya özellik isteğinizi bildirin. Bildirmek için [main flutter
 repo](https://github.com/flutter/flutter/issues/new).
 
-Issues pertaining to this repository are [labeled
-"plugin"](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3Aplugin).
+Bu repo ile ilgili olan sorunlar 
+["plugin"](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3Aplugin) etiketi ile işaretlendi.
 
-## Contributing
+## Katkıda Bulunmak
 
-If you wish to contribute a new plugin to the Flutter ecosystem, please
-see the documentation for [developing packages](https://flutter.dev/developing-packages/) and
-[platform channels](https://flutter.dev/platform-channels/). You can store
-your plugin source code in any GitHub repository (the present repo is only
-intended for plugins developed by the core Flutter team). Once your plugin
-is ready, you can [publish](https://flutter.dev/developing-packages/#publish) it
-to the [pub repository](https://pub.dev/).
+Eğer Flutter ekosistemine yeni bir eklenti katmak isterseniz, lütfen 
+[paket geliştirmesi](https://flutter.dev/developing-packages/) ve 
+[platform kanalları](https://flutter.dev/platform-channels/) için belgeleri kontrol edin.
+Eklenti kaynak kodunuzu GitHub'da herhangi bir repoda saklayabilirsiniz 
+(bu mevcut repo yalnızca Flutter çekirdek ekip tarafından geliştirilen eklentiler içindir).
+Eklentiniz hazır olduğunda, [publish](https://flutter.dev/developing-packages/#publish)
+reposundan [pub](https://pub.dev/) reposuna yayınlayabilirsiniz.
 
-If you wish to contribute a change to any of the existing plugins in this repo,
-please review our [contribution guide](https://github.com/flutter/plugins/blob/main/CONTRIBUTING.md),
-and send a [pull request](https://github.com/flutter/plugins/pulls).
 
-## Plugins
-These are the available plugins in this repository.
+Bu repodaki mevcut eklentilerden herhangi birinde değişiklik yapmak isterseniz, lütfen [katkı rehberi](https://github.com/flutter/plugins/blob/main/CONTRIBUTING.md)'ni inceleyin ve bir
+[pull request](https://github.com/flutter/plugins/pulls) gönderin.
 
-| Plugin | Pub | Points | Popularity | Likes | Issues | Pull requests |
+
+## Eklentiler
+Bu repoda mevcut olan eklentiler şunlardır:
+
+| Eklenti | Pub | Points | Popülerlik | Beğeni | Geri bildirim | Pull requests |
 |--------|-----|--------|------------|-------|--------|---------------|
 | [camera](./packages/camera/) | [![pub package](https://img.shields.io/pub/v/camera.svg)](https://pub.dev/packages/camera) | [![pub points](https://img.shields.io/pub/points/camera)](https://pub.dev/packages/camera/score) | [![popularity](https://img.shields.io/pub/popularity/camera)](https://pub.dev/packages/camera/score) | [![likes](https://img.shields.io/pub/likes/camera)](https://pub.dev/packages/camera/score) | [![GitHub issues by-label](https://img.shields.io/github/issues/flutter/flutter/p:%20camera?label=)](https://github.com/flutter/flutter/labels/p%3A%20camera) | [![GitHub pull requests by-label](https://img.shields.io/github/issues-pr/flutter/plugins/p:%20camera?label=)](https://github.com/flutter/plugins/labels/p%3A%20camera) |
 | [espresso](./packages/espresso/) | [![pub package](https://img.shields.io/pub/v/espresso.svg)](https://pub.dev/packages/espresso) | [![pub points](https://img.shields.io/pub/points/espresso)](https://pub.dev/packages/espresso/score) | [![popularity](https://img.shields.io/pub/popularity/espresso)](https://pub.dev/packages/espresso/score) | [![likes](https://img.shields.io/pub/likes/espresso)](https://pub.dev/packages/espresso/score) | [![GitHub issues by-label](https://img.shields.io/github/issues/flutter/flutter/p:%20espresso?label=)](https://github.com/flutter/flutter/labels/p%3A%20espresso) | [![GitHub pull requests by-label](https://img.shields.io/github/issues-pr/flutter/plugins/p:%20espresso?label=)](https://github.com/flutter/plugins/labels/p%3A%20espresso) |
